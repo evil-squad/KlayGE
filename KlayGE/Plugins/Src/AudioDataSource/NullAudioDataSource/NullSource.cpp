@@ -46,6 +46,9 @@ namespace KlayGE
 	{
 		KFL_UNUSED(file);
 
+		format_ = AF_Mono16;
+		freq_ = 22050;
+
 		this->Reset();
 	}
 
@@ -59,7 +62,6 @@ namespace KlayGE
 		KFL_UNUSED(data);
 		KFL_UNUSED(size);
 
-		BOOST_ASSERT(data != nullptr);
 		return 0;
 	}
 

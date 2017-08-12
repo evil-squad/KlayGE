@@ -36,6 +36,6 @@ ENDIF()
 
 IF(KLAYGE_IS_DEV_PLATFORM)
 	ADD_SUBDIRECTORY(Plugins/Render/NullRender)
-	ADD_SUBDIRECTORY(Plugins/Audio/NullAudio)
-	ADD_SUBDIRECTORY(Plugins/Audio/NullAudioDataSource)
 ENDIF()
+ADD_SUBDIRECTORY(Plugins/Audio/NullAudio)
+ADD_SUBDIRECTORY(Plugins/Audio/NullAudioDataSource)

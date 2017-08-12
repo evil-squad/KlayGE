@@ -246,7 +246,7 @@ namespace KlayGE
 #elif defined(KLAYGE_PLATFORM_WINDOWS_STORE)
 		ArrayRef<char const *> available_rfs = { "D3D11", "D3D12" };
 		ArrayRef<char const *> available_afs = { "XAudio" };
-		ArrayRef<char const *> available_adsfs = { "" };
+		ArrayRef<char const *> available_adsfs = { "NullAudioDataSource" };
 		ArrayRef<char const *> available_ifs = { "MsgInput" };
 		ArrayRef<char const *> available_sfs = { "" };
 		ArrayRef<char const *> available_scfs = { "Python" };
